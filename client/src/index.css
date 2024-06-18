@@ -6,7 +6,7 @@
 
 :root {
   --color-primary: #6f6af8;
-  --color-white: #f2f2fe;
+  --color-white: #ffffff;
   --color-red: #da0f3f;
   --color-gray-100: hsl(220, 20% 10% 5%);
   --color-gray-200: hsl(220, 20% 10% 10%);
@@ -212,3 +212,99 @@ footer {
 }
 
 /* Footer CSS end */
+
+/* Home CSS start */
+/* Home CSS end */
+
+/* Posts CSS start */
+
+.posts__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4rem;
+}
+
+.post {
+  background: var(--color-white);
+  padding: 1rem;
+  border-radius: var(--radius-4);
+  padding-bottom: 2rem;
+  transition: var(--transition);
+  cursor: default;
+  text-align: justify;
+}
+
+.post:hover {
+  box-shadow: 0 1.5rem 2rem rgba(0, 0, 0, 0.1);
+}
+
+.post__thumbnail {
+  border-radius: var(--radius-3);
+  overflow: hidden;
+  height: 16rem;
+}
+
+.post__content {
+  margin-top: 1.5rem;
+}
+
+.post__content h3 {
+  margin: 1rem 0 0.6rem;
+}
+
+.post__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 2rem;
+}
+
+.post__author {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.post__author-avatar {
+  width: 2.5rem;
+  aspect-ratio: 1/1;
+  border-radius: var(--radius-2);
+  overflow: hidden;
+}
+/* Posts CSS end */
+
+/* Post Detail CSS start */
+
+.post-detail {
+  width: var(--form-width);
+  background: var(--color-white);
+  margin-inline: auto;
+  padding: 2rem 0;
+}
+
+.post-detail__header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.post-detail__buttons {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.post-detail__thumbnail {
+  margin: 1rem 0;
+  height: fit-content;
+  max-height: 30rem;
+  overflow: hidden;
+}
+
+.post-detail p {
+  margin-bottom: 0.7rem;
+}
+/* Post Detail CSS end */
+
+/* Regiter Form CSS start */
+/* Regiter Form CSS end */

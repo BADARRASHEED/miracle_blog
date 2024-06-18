@@ -1,9 +1,19 @@
-import React from 'react'
+import React from "react";
+import { Link } from "react-router-dom";
+import Avatar from "../images/avatar2.jpg";
 
 const PostAuthor = () => {
   return (
-    <div>PostAuthor</div>
-  )
-}
+    <Link to={`/posts/users/sdfsdf`} className="post__author">
+      <div className="post__author-avatar">
+        <img src={Avatar} alt="Avatar" />
+      </div>
+      <div className="post__author-details">
+        <h5>By: Badar Butt</h5>
+        <small>Just Now</small>
+      </div>
+    </Link>
+  );
+};
 
-export default PostAuthor
+export default PostAuthor;
