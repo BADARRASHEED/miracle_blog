@@ -271,6 +271,7 @@ footer {
   border-radius: var(--radius-2);
   overflow: hidden;
 }
+
 /* Posts CSS end */
 
 /* Post Detail CSS start */
@@ -304,6 +305,7 @@ footer {
 .post-detail p {
   margin-bottom: 0.7rem;
 }
+
 /* Post Detail CSS end */
 
 /* Regiter Form CSS start */
@@ -360,6 +362,7 @@ textarea {
   color: var(--color-primary);
   font-weight: 600;
 }
+
 /* Regiter Form CSS end */
 
 /* Authors CSS start */
@@ -394,6 +397,7 @@ textarea {
 .author__info p {
   margin-top: 1rem;
 }
+
 /* Authors CSS end */
 
 /* Profile CSS start */
@@ -464,3 +468,41 @@ textarea {
 }
 
 /* Profile CSS end */
+
+/* Dashboard CSS start */
+
+.dashboard__container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.dashboard__post {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem 1.2rem;
+  background: var(--color-white);
+  border-radius: var(--radius-3);
+}
+
+.dashboard__post-info {
+  display: flex;
+  gap: 2rem;
+  width: 100%;
+  align-items: center;
+}
+
+.dashboard__post-thumbnail {
+  width: 4rem;
+  border-radius: var(--radius-1);
+  overflow: hidden;
+}
+
+.dashboard__post-actions {
+  display: flex;
+  gap: 1rem;
+}
+
+/* Dashboard CSS end */
