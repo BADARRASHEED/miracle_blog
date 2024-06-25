@@ -363,6 +363,14 @@ textarea {
   font-weight: 600;
 }
 
+/* React Quill */
+
+.ql-editor {
+  overflow: scroll;
+  background: var(--color-white);
+  height: 5rem !important;
+}
+
 /* Regiter Form CSS end */
 
 /* Authors CSS start */
@@ -506,3 +514,6 @@ textarea {
 }
 
 /* Dashboard CSS end */
+
+/* Media Queries start */
+/* Media Queries end */
